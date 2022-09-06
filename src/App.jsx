@@ -7,10 +7,18 @@ const App = () => {
 	return (
 		<div className="App">
 			<BrowserRouter basename={process.env.PUBLIC_URL}>
-				<Routes basename={process.env.PUBLIC_URL}>
+				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/particuliers" element={<Particuliers />} />
-					<Route path="/professionnels" element={<Professionnels />} />
+					<Route
+						basename={process.env.PUBLIC_URL}
+						path="/particuliers"
+						element={<Particuliers />}
+					/>
+					<Route
+						basename={process.env.PUBLIC_URL}
+						path="/professionnels"
+						element={<Professionnels />}
+					/>
 				</Routes>
 			</BrowserRouter>
 		</div>
