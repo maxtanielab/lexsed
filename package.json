@@ -1,7 +1,7 @@
 {
 	"name": "lexsed",
 	"version": "0.1.0",
-	"homepage": "https://github.com/maxtanielab/lexsed.git",
+	"homepage": "https://maxtanielab.github.io/lexsed",
 	"private": true,
 	"dependencies": {
 		"@fortawesome/free-solid-svg-icons": "^6.2.0",
