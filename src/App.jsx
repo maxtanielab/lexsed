@@ -8,17 +8,9 @@ const App = () => {
 		<div className="App">
 			<BrowserRouter basename={process.env.PUBLIC_URL}>
 				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route
-						basename={`${process.env.PUBLIC_URL}/particuliers`}
-						path="/particuliers"
-						element={<Particuliers />}
-					/>
-					<Route
-						basename={`${process.env.PUBLIC_URL}/professionnels`}
-						path="/professionnels"
-						element={<Professionnels />}
-					/>
+					<Route exact path="/" element={<Home />} />
+					<Route path="/particuliers" element={<Particuliers />} />
+					<Route path="/professionnels" element={<Professionnels />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
