@@ -1,0 +1,19 @@
+#header {
+	height: 80vh;
+	background: #fff;
+	overflow: hidden;
+	padding-top: 50px;
+
+	.header-bg {
+		width: 700px;
+		height: 80vh;
+		padding: 10px;
+		background-image: url("../../../public/images/beautiful-black-girl-chating.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.header-find-pro-content {
+		padding: 20px;
+	}
+}

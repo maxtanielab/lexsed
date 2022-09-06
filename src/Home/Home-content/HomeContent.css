@@ -1,0 +1,39 @@
+.content-center {
+  width: 500px;
+  max-width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content-center .content {
+  color: #fff;
+  text-align: center;
+}
+.content-center .content .title-post {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.content-center .content .txt-description-post {
+  max-width: 350px;
+  margin: auto;
+  font-size: 35px;
+  font-weight: normal;
+}
+.content-center .content .btn-access-website {
+  max-width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  height: 45px;
+  line-height: 45px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  border-radius: 50px;
+  transition: background-color 0.3s linear;
+}
+.content-center .content .btn-access-website:hover {
+  background-color: #191d8e;
+}/*# sourceMappingURL=HomeContent.css.map */

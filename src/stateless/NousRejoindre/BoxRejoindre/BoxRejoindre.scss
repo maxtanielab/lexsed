@@ -1,0 +1,32 @@
+.box-rejoindre {
+	background-color: #ffffff;
+	border-radius: 7px;
+	padding: 60px;
+	margin-top: 60px;
+
+	img {
+		width: 50%;
+	}
+
+	.content-description {
+		width: 50%;
+		color: #0c1064;
+		.title {
+			font-size: 20px;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+
+		.description {
+			line-height: 1.5;
+
+			.para {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	.button-content {
+		margin-top: 30px;
+	}
+}
