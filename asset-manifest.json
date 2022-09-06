@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lexsed/static/css/main.88270df7.css",
-    "main.js": "/lexsed/static/js/main.e21800d1.js",
+    "main.js": "/lexsed/static/js/main.3932f248.js",
     "static/media/beautiful-black-girl-chating.png": "/lexsed/static/media/beautiful-black-girl-chating.94d08ede6ba5f631e5df.png",
     "static/media/lexsed-l.png": "/lexsed/static/media/lexsed-l.8b5d284c311a5b5ac643.png",
     "static/media/shape-l-partenaires.png": "/lexsed/static/media/shape-l-partenaires.cd8f9916e19a29e2bcc6.png",
     "index.html": "/lexsed/index.html",
     "main.88270df7.css.map": "/lexsed/static/css/main.88270df7.css.map",
-    "main.e21800d1.js.map": "/lexsed/static/js/main.e21800d1.js.map"
+    "main.3932f248.js.map": "/lexsed/static/js/main.3932f248.js.map"
   },
   "entrypoints": [
     "static/css/main.88270df7.css",
-    "static/js/main.e21800d1.js"
+    "static/js/main.3932f248.js"
   ]
 }
